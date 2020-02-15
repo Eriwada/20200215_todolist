@@ -1,0 +1,54 @@
+    form input,
+    form textarea,
+    form label,
+    form button {
+      width: 50%;
+      max-width: 320px;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    form div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    form input {
+      height: 30px;
+    }
+
+    form textarea {
+      resize: none;
+    }
+
+    table,
+    thead,
+    tbody,
+    tr,
+    th,
+    td {
+      border-collapse: collapse;
+      border: 1px solid #000;
+    }
+
+    th {
+      background: #f2f2f2;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .modal-content {
+      background-color: white;
+      width: 500px;
+      margin: 30% auto;
+    }
